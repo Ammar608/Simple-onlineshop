@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto',sans-serif;
+}
+
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstname{
+    font-size: 30px;
+    font-weight: 600;
+    color:crimson;
+    margin-right: 4px;
+}
+
+.lastname{
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;
+    margin-top: 3px;
+}
+
+.navigation , ul{   
+    display: flex;
+    margin-top: 2px;
+}
+
+
+ul > li {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    font-size: 25px;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+ul>li>a:hover{
+    color: red;
+}
+
+.shopping-cart{
+    display: flex;
+}
+
+.shopping-cart > img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item{
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    background-color:whitesmoke;
+}
+
+.card-item > img{
+    border-radius: 8px;
+    margin: 10px;
+    height: 280px;
+    width: 280px;
+}
+
+.card-item > p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.button-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-item > button{
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.button-item > button >img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 6px;
+}
